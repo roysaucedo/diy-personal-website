@@ -1,0 +1,20 @@
+{
+    "img": "/src/img/profile-img.PNG",
+    "title": "DIY Personal Website",
+    "summary": "Talented indivividual with big dreams. 🚀",
+    "links": [
+        {
+            "title": "My Website",
+            "url": "https://www.example.com"
+        },
+        {
+            "title": "My Website",
+            "url": "https://www.example.com"
+        },
+        {
+            "title": "My Website",
+            "url": "https://www.example.com"
+        }
+
+    ]
+}
