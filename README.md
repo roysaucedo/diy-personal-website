@@ -6,8 +6,8 @@ In this project, I will show you how to publish your very own website for free w
 
 ## Prerequisites
 You are going to need 2 accounts:
-* GitHub
-* Netlify
+* GitHub: https://github.com/
+* Netlify: https://netlify.com/
 
 ## How to clone this
 * Go to this link: https://github.com/roysaucedo/diy-personal-website
