@@ -1,22 +1,23 @@
 {
-    "img": "/src/img/profile-img.PNG",
+    "colorScheme": "blue",
+    "img": "/src/img/profile-img.jpeg",
     "title": "DIY Personal Website",
-    "summary": "Talented indivividual with big dreams. 🚀 Checkoout my content and pick up some merch",
+    "summary": "Talented individual with big dreams. 🚀 Checkoout my content and join my MLM!",
     "links": [
         {
-            "title": "My Website",
+            "title": "🔗 My Website",
             "url": "https://www.example.com"
         },
         {
-            "title": "My Website",
+            "title": "📸 Instagram",
             "url": "https://www.example.com"
         },
         {
-            "title": "My Website",
+            "title": "🪩 TikTok",
             "url": "https://www.example.com"
         },
         {
-            "title": "My Website",
+            "title": "🐥 Twitter",
             "url": "https://www.example.com"
         }
 
