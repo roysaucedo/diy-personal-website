@@ -35,8 +35,9 @@ fetch("/src/site-content.json")
     });
 
     const colorScheme = data.colorScheme;
-    const bgColorClass = `bg-${colorScheme}-300`;
+    const bgColorClass = `bg-${colorScheme}-500`;
     const background = document.getElementById("background");
+    
 
     // Apply the classes to the relevant elements
     background.classList.add(bgColorClass);
