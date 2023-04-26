@@ -15,3 +15,8 @@ You are going to need 2 accounts:
 
 ## How to personalize the site
 * In the config.js file, edit the place holder items and make them your own.
+
+## How to edit the background
+* In the config.js file, edit the "colorScheme" value.
+* Your options are: Blue, Green, Red, & Yellow
+
