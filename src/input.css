@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.green-theme {
+    @apply from-green-500 to-lime-500;
+  }
+  
+.blue-theme {
+    @apply from-cyan-500 to-blue-500;
+  }
+
+.yellow-theme {
+    @apply from-yellow-500 to-orange-500;
+  }
+
+.pink-theme {
+    @apply from-pink-500 to-purple-500;
+  }

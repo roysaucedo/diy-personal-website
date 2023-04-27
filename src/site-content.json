@@ -1,9 +1,8 @@
 {
-    "bgFromColor": "cyan",
-    "bgToColor": "green",
+    "colorScheme": "green",
     "img": "/src/img/profile-img.jpeg",
     "title": "DIY Personal Website",
-    "summary": "Talented individual with big dreams. 🚀 Checkoout my content and join my MLM!",
+    "summary": "Talented individual with big dreams. 🚀 Checkout my content and join my MLM!",
     "links": [
         {
             "title": "🔗 My Website",
@@ -19,6 +18,10 @@
         },
         {
             "title": "🐥 Twitter",
+            "url": "https://www.example.com"
+        },
+        {
+            "title": "📼 YouTube",
             "url": "https://www.example.com"
         }
 

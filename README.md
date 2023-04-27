@@ -18,5 +18,5 @@ You are going to need 2 accounts:
 
 ## How to edit the background
 * In the config.js file, edit the "colorScheme" value.
-* Your options are: Blue, Green, Red, & Yellow
+* Your options are: Blue, Green, Pink, & Yellow
 
