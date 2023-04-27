@@ -1,5 +1,6 @@
 {
-    "colorScheme": "green",
+    "bgFromColor": "cyan",
+    "bgToColor": "green",
     "img": "/src/img/profile-img.jpeg",
     "title": "DIY Personal Website",
     "summary": "Talented individual with big dreams. 🚀 Checkoout my content and join my MLM!",

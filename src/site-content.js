@@ -34,11 +34,14 @@ fetch("/src/site-content.json")
       container.appendChild(linkElement);
     });
 
-    const colorScheme = data.colorScheme;
-    const bgColorClass = `bg-${colorScheme}-500`;
+    const fromColor = data.bgFromColor;
+    const toColor = data.bgToColor;
+    const bgFromColorClass = `from-${fromColor}-500`;
+    const bgToColorClass = `to-${toColor}-500`;
     const background = document.getElementById("background");
-    
+
 
     // Apply the classes to the relevant elements
-    background.classList.add(bgColorClass);
+    background.classList.add(bgFromColorClass);
+    background.classList.add(bgToColorClass);
   });
