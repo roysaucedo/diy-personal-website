@@ -29,32 +29,32 @@
     "cards": [
         {
             "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
-            "title": "My Title",
+            "title": "My Title 1",
             "text": "This is my paragraph."
         },
         {
             "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
-            "title": "My Title",
+            "title": "My Title 2",
             "text": "This is my paragraph."
         },
         {
             "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
-            "title": "My Title",
+            "title": "My Title 3",
             "text": "This is my paragraph."
         },
         {
             "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
-            "title": "My Title",
+            "title": "My Title 4",
             "text": "This is my paragraph."
         },
         {
             "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
-            "title": "My Title",
+            "title": "My Title 5",
             "text": "This is my paragraph."
         },
         {
             "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
-            "title": "My Title",
+            "title": "My Title 6",
             "text": "This is my paragraph."
         }
     ]
