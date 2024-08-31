@@ -25,5 +25,37 @@
             "url": "https://www.example.com"
         }
 
+    ],
+    "cards": [
+        {
+            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+            "title": "My Title",
+            "text": "This is my paragraph."
+        },
+        {
+            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+            "title": "My Title",
+            "text": "This is my paragraph."
+        },
+        {
+            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+            "title": "My Title",
+            "text": "This is my paragraph."
+        },
+        {
+            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+            "title": "My Title",
+            "text": "This is my paragraph."
+        },
+        {
+            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+            "title": "My Title",
+            "text": "This is my paragraph."
+        },
+        {
+            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+            "title": "My Title",
+            "text": "This is my paragraph."
+        }
     ]
 }

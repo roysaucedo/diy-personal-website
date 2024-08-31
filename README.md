@@ -20,3 +20,6 @@ You are going to need 2 accounts:
 * In the site-content.json file, edit the "colorScheme" value.
 * Your options are: Blue, Green, Pink, & Yellow
 
+
+## TAILWIND
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
