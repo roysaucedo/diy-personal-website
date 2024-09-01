@@ -1,8 +1,8 @@
 {
     "colorScheme": "blue",
-    "img": "/src/img/profile-img.jpeg",
+    "img": "https://media.istockphoto.com/id/153696622/photo/happy-senior-man-giving-thumb-up.jpg?s=612x612&w=0&k=20&c=b2BI4P4vvgEK9AqxQ_gl7EpWnr1BomTJV24RqtGpaRo%3D",
     "title": "DIY Personal Website",
-    "summary": "Talented individual with big dreams. 🚀 Checkout my content and join my MLM!",
+    "summary": "Here is my description for my website.",
     "links": [
         {
             "title": "🔗 My Website",
@@ -26,36 +26,28 @@
         }
 
     ],
+    "cardstitle": "My Collection",
     "cards": [
         {
-            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+            "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
             "title": "My Title 1",
-            "text": "This is my paragraph."
+            "text": "This is my paragraph.",
+            "linkTitle": "Shop Now →",
+            "url": "https://www.example.com"
         },
         {
-            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
-            "title": "My Title 2",
-            "text": "This is my paragraph."
+            "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+            "title": "My Title 1",
+            "text": "This is my paragraph.",
+            "linkTitle": "Shop Now →",
+            "url": "https://www.example.com"
         },
         {
-            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
-            "title": "My Title 3",
-            "text": "This is my paragraph."
-        },
-        {
-            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
-            "title": "My Title 4",
-            "text": "This is my paragraph."
-        },
-        {
-            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
-            "title": "My Title 5",
-            "text": "This is my paragraph."
-        },
-        {
-            "url": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
-            "title": "My Title 6",
-            "text": "This is my paragraph."
+            "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+            "title": "My Title 1",
+            "text": "This is my paragraph.",
+            "linkTitle": "Shop Now →",
+            "url": "https://www.example.com"
         }
     ]
 }

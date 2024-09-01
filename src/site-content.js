@@ -1,6 +1,16 @@
 fetch("/src/site-content.json")
   .then((response) => response.json())
   .then((data) => {
+
+    const colorScheme = data.colorScheme;
+    const colorSchemeClass = `${colorScheme}-theme`;
+    const background = document.getElementById("background");
+
+
+    // Apply the classes to the relevant elements
+    background.classList.add(colorSchemeClass);
+    
+
     const imageElement = document.getElementById("profile-img");
     const pageImage = data.img;
     imageElement.src = pageImage;
@@ -26,12 +36,18 @@ fetch("/src/site-content.json")
         "rounded-lg",
         "shadow-lg",
         "block",
-        "hover:scale-105",
+        "hover:bg-gray-300",
         "ease-in-out",
         "duration-300"
       );
       linksContainer.appendChild(linkElement);
     });
+
+    // CARDS SECTION
+
+    const cardstitleElement = document.getElementById("cardstitle");
+    const cardsTitle = data.cardstitle;
+    cardstitleElement.textContent = cardsTitle;
 
     const imgContainer = document.getElementById("cardContainer");
     data.cards.forEach((card) => {
@@ -39,14 +55,15 @@ fetch("/src/site-content.json")
       // CREATE AND STYLE CARD
       const cardElement = document.createElement("div");
       cardElement.classList.add(
-        "bg-green-100",
-        "p-10"
+        "p-4",
+        "bg-gray-100",
+        "rounded-xl"
       );
       imgContainer.appendChild(cardElement);
 
       // CREATE AND STYLE IMAGE
       const imgElement = document.createElement("img");
-      imgElement.src = card.url;
+      imgElement.src = card.imgUrl;
       imgElement.classList.add(
         "w-full",
         "max-w-xs",
@@ -65,8 +82,7 @@ fetch("/src/site-content.json")
       // CREATE AND STYLE TEXT-DIV
       const textDivElement = document.createElement("div");
       textDivElement.classList.add(
-        "bg-green-100",
-        "p-10"
+        
       );
       cardElement.appendChild(textDivElement);
 
@@ -87,13 +103,27 @@ fetch("/src/site-content.json")
         "max-w-xs"
       );
       textDivElement.appendChild(textElement);
+
+      // CREATE AND STYLE BUTTON
+      const buttonElement = document.createElement("a");
+      buttonElement.textContent = card.linkTitle;
+      buttonElement.href = card.url;
+      buttonElement.classList.add(
+        "w-full",
+        "p-4",
+        "my-4",
+        "border-2",
+        "rounded-lg",
+        "shadow-lg",
+        "block",
+        "bg-black",
+        "text-white",
+        "hover:scale-105",
+        "ease-in-out",
+        "duration-300"
+      );
+      textDivElement.appendChild(buttonElement);
     });
 
-    const colorScheme = data.colorScheme;
-    const colorSchemeClass = `${colorScheme}-theme`;
-    const background = document.getElementById("background");
-
-
-    // Apply the classes to the relevant elements
-    background.classList.add(colorSchemeClass);
+    
   });
